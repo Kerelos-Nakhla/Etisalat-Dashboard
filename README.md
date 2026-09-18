@@ -6,7 +6,7 @@ An interactive **Power BI telecom analytics solution** designed to turn customer
 
 ---
 
-## 🖥️ Dashboard Experience
+## Dashboard Screenshots
 
 ### 1. 🏠 Landing Page
 
