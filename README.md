@@ -265,7 +265,7 @@ The dashboard follows:
 ```text
 Etisalat-Dashboard/
 │
-├── Dataset/
+├── Data/
 │   ├── dim_contract.xlsx
 │   ├── dim_customer.xlsx
 │   ├── dim_payment.xlsx
