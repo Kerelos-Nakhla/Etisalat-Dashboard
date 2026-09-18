@@ -28,6 +28,10 @@ An interactive **Power BI telecom analytics solution** designed to turn customer
 
 ![Payment](./Screenshots/Payment%20Page.png)
 
+### 6. 🗂️ Model
+
+![Model](./Screenshots/Model.png)
+
 ---
 
 ## 🎯 Project Objective
