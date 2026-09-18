@@ -10,27 +10,27 @@ An interactive **Power BI telecom analytics solution** designed to turn customer
 
 ### 1. 🏠 Landing Page
 
-![Landing Page](./Screenshots/Landing%20Page.png)
+![Landing Page](./Dashboard%20Previews/Landing%20Page.png)
 
 ### 2. 📊 Overview
 
-![Overview](./Screenshots/Overview%20Page.png)
+![Overview](./Dashboard%20Previews/Overview%20Page.png)
 
 ### 3. 👥 Customers
 
-![Customers](./Screenshots/Customers.png)
+![Customers](./Dashboard%20Previews/Customers.png)
 
 ### 4. 📱 Services
 
-![Services](./Screenshots/Services%20Page.png)
+![Services](./Dashboard%20Previews/Services%20Page.png)
 
 ### 5. 💳 Payment
 
-![Payment](./Screenshots/Payment%20Page.png)
+![Payment](./Dashboard%20Previews/Payment%20Page.png)
 
 ### 6. 🗂️ Model
 
-![Model](./Screenshots/Model.png)
+![Model](./Dashboard%20Previews/Model.png)
 
 ---
 
