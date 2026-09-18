@@ -1,284 +1,293 @@
-# 📊 Etisalat Telecom Customer Churn & Revenue Risk Dashboard
+# 📊 ETISALAT CUSTOMER CHURN & REVENUE RISK ANALYTICS
 
-## 📌 Project Overview
+## Customer Churn | Revenue Exposure | Services | Payments | Customer Behavior
 
-This project is an **interactive Telecom Customer Churn & Revenue Risk Dashboard** developed using **Microsoft Power BI**.
-
-The objective was to transform raw telecom customer data into a business-focused analytical solution that helps identify **customer churn patterns, revenue exposure, customer behavior, service-level risk, and potential retention opportunities**.
-
-Rather than focusing only on how many customers are leaving, the analysis connects customer churn with its potential **financial impact**.
+An interactive **Power BI telecom analytics solution** designed to turn customer-level data into a clear view of **churn behavior, revenue exposure, service adoption, payment behavior, and customer retention risk**.
 
 ---
 
-## 🎯 Business Problem
+## 🖥️ Dashboard Experience
 
-Customer churn is one of the major challenges in the telecommunications industry.
+### 1. 🏠 Landing Page
 
-When customers leave, the business does not only lose customers — it can also lose recurring revenue and future customer lifetime value.
+![Landing Page](./Screenshots/Landing%20Page.png)
 
-This project was designed to answer questions such as:
+### 2. 📊 Overview
 
-* What is the overall customer churn rate?
-* How many customers have churned?
-* How much revenue is associated with churned customers?
-* Which contract types have higher churn?
-* Which services are associated with greater customer and revenue risk?
-* How does customer behavior change throughout the customer journey?
-* Are payment methods related to churn behavior?
-* Can support-ticket activity provide additional context around customer churn?
-* Where should retention efforts be prioritized?
+![Overview](./Screenshots/Overview%20Page.png)
 
----
+### 3. 👥 Customers
 
-## 📈 Key Business Metrics
+![Customers](./Screenshots/Customers.png)
 
-The analysis contains **7,043 customers** across the dataset.
+### 4. 📱 Services
 
-| KPI                   |       Value |
-| --------------------- | ----------: |
-| 👥 Total Customers    |   **7,043** |
-| 📉 Churned Customers  |   **1,869** |
-| 📊 Overall Churn Rate |  **26.54%** |
-| 💰 Total Charges      | **$16.06M** |
-| ⚠️ Revenue at Risk    |  **$2.86M** |
-| 📈 Revenue at Risk %  |  **17.83%** |
+![Services](./Screenshots/Services%20Page.png)
 
-### 💡 Key Takeaway
+### 5. 💳 Payment
 
-The analysis shows that customer churn represents more than a customer-count problem.
-
-Approximately **$2.86M in revenue is associated with churned customers**, representing around **17.83% of total charges** in the dataset.
-
-This creates an opportunity to approach retention from a **financial-risk perspective**, rather than focusing exclusively on reducing the number of churned customers.
+![Payment](./Screenshots/Payment%20Page.png)
 
 ---
 
-## 🔍 Key Analytical Areas
+## 🎯 Project Objective
 
-### 1. 💰 Revenue Impact
+The objective was to build a business-focused telecom dashboard that answers:
 
-The dashboard evaluates the financial impact of churn by calculating:
+- How large is the customer base?
+- How many customers have churned?
+- What is the overall churn rate?
+- How much customer revenue is exposed to churn?
+- Which customer characteristics are associated with churn?
+- How do services relate to customer behavior and revenue risk?
+- How do payment methods differ across customers?
+- Where can retention analysis be focused?
 
-* Total Charges
-* Revenue at Risk
-* Revenue at Risk %
-* Churned Customer Charges
-
-This allows stakeholders to understand **where customer churn has the greatest potential financial impact**.
-
----
-
-### 2. 📉 Customer Churn
-
-Customer churn is analyzed across multiple customer characteristics to identify patterns and segments that may require additional attention.
-
-The analysis includes:
-
-* Total Customers
-* Churned Customers
-* Retained Customers
-* Churn Rate
-* Retention Rate
-* Customer segmentation
+The dashboard connects **customer, contract, service, payment, and churn data** into one analytical experience.
 
 ---
 
-### 3. 📊 Contract Analysis
+## 📈 Data at a Glance
 
-Customers are analyzed based on their contract type to identify differences in churn behavior.
+| Metric | Value |
+|---|---:|
+| 👥 Total Customers | **7,043** |
+| 📉 Churned Customers | **1,869** |
+| 📊 Overall Churn Rate | **26.54%** |
+| 💰 Total Charges | **$16.06M** |
+| ⚠️ Revenue at Risk | **$2.86M** |
+| 📌 Revenue at Risk | **17.83%** |
+| 🗂️ Analytical Excel Tables | **5** |
 
-The dashboard compares:
+### Dataset Structure
 
-* Month-to-Month contracts
-* One-Year contracts
-* Two-Year contracts
-
-This provides a clearer view of which contractual relationships may require stronger retention strategies.
-
----
-
-### 4. 📱 Service-Level Risk
-
-The Services analysis connects:
-
-**Service Adoption → Customer Behavior → Revenue Risk**
-
-Instead of only measuring how many customers subscribe to a service, the dashboard evaluates the relationship between services, churn, and financial exposure.
-
-This can help identify services or customer groups that deserve further investigation.
+- `dim_customer.xlsx`
+- `dim_contract.xlsx`
+- `dim_payment.xlsx`
+- `dim_services.xlsx`
+- `fact_churn.xlsx`
 
 ---
 
-### 5. 👥 Customer Journey
+# 🔍 Business Analysis & Key Insights
 
-The Customer Journey analysis focuses on understanding customer behavior throughout the lifecycle.
+## 1. 💰 Revenue Risk
 
-It considers retention and churn patterns to support questions around:
+The analysis connects customer churn with financial exposure instead of treating churn as only a customer-count KPI.
 
-* Early churn intervention
-* Customer segmentation
-* Retention campaigns
-* Customer experience
-* High-value customer prioritization
+- **1,869 customers** are recorded as churned.
+- Overall churn rate is **26.54%**.
+- Total customer charges reach approximately **$16.06M**.
+- Approximately **$2.86M** is associated with churned-customer revenue exposure.
+- Revenue at risk represents approximately **17.83%** of total charges.
 
----
-
-### 6. 💳 Payment Behavior
-
-Payment methods are analyzed to identify potential relationships between payment behavior and customer churn.
-
-This provides another dimension for understanding customer behavior and identifying segments that may require additional investigation.
+This highlights why retention analysis should consider both **customer volume and customer value**.
 
 ---
 
-### 7. 🎧 Support Behavior
+## 2. 👥 Customer Analysis
 
-The project also analyzes **administrative and technical support-ticket activity**.
+The Customers page analyzes:
 
-Support interactions can provide useful context around customer experience and potential friction points.
+- Total, churned, and retained customers
+- Churn rate and retention
+- Customer segmentation
+- Customer characteristics
+- Revenue exposure across customer groups
+- Customer lifecycle behavior
 
-This creates an additional analytical layer when investigating why customers may leave.
-
----
-
-# 🖥️ Dashboard Pages
-
-The Power BI report is organized into several analytical pages.
-
-### 🏠 Overview
-
-Provides a high-level view of the business situation, including major KPIs and churn performance.
-
-### 👥 Customers
-
-Focuses on customer behavior, segmentation, retention, and churn.
-
-### 📱 Services
-
-Analyzes service adoption and its relationship with churn and financial risk.
-
-### 💳 Payments
-
-Examines payment methods and their relationship with customer behavior.
-
-### 🧭 Customer Journey
-
-Provides a deeper view of customer retention and churn throughout the customer lifecycle.
+The analytical question moves from **“How many customers churned?”** toward **“Which customer groups contribute to churn and revenue exposure?”**
 
 ---
 
-# 🛠️ Tools & Technologies
+## 3. 📱 Services Analysis
 
-### Data & Analytics
+The Services page connects:
 
-* **Microsoft Power BI**
-* **DAX**
-* **Power Query**
-* **Microsoft Excel**
+**Service Adoption → Customer Behavior → Churn → Revenue Risk**
 
-### Design & Visualization
+It examines service adoption, customer behavior, churn patterns, and financial exposure across service groups.
 
-* **Figma**
-* **HTML**
-* **CSS**
+This provides context for identifying service configurations that deserve deeper retention investigation.
 
 ---
 
-# ⚙️ Technical Implementation
+## 4. 💳 Payment Analysis
 
-## Power Query
+The Payment page evaluates payment behavior as another dimension of churn analysis.
 
-Power Query was used for data preparation and transformation before the data was used for analytical modeling.
+It examines:
 
-The preparation process included tasks such as:
-
-* Data cleaning
-* Data transformation
-* Column preparation
-* Data type management
-* Preparing datasets for analysis
+- Payment-method distribution
+- Customer behavior by payment method
+- Churn patterns across payment groups
+- Revenue exposure by payment segment
 
 ---
 
-## DAX
+## 5. 📋 Contract & Lifecycle Analysis
 
-DAX was used to create the analytical layer of the dashboard.
+Contract information is used to compare customer relationships across:
 
-The project contains a large set of measures covering areas such as:
+- Month-to-month contracts
+- One-year contracts
+- Two-year contracts
+- Customer tenure
+- Churn behavior
+- Revenue exposure
 
-* Customer KPIs
-* Churn calculations
-* Retention calculations
-* Revenue calculations
-* Revenue at Risk
-* Revenue at Risk %
-* Contract-level churn
-* Service-level risk
-* Customer segmentation
-* Customer journey analysis
-* Support-ticket metrics
+This adds lifecycle context to the overall retention analysis.
 
 ---
 
-## 🎨 UI/UX Design
+# 📊 Executive KPI Snapshot
 
-The dashboard interface was designed with a focus on creating an **executive-style analytical experience**.
+| KPI | Business Meaning |
+|---|---|
+| **7,043 Customers** | Size of the analyzed customer base |
+| **1,869 Churned** | Customers recorded as leaving |
+| **26.54% Churn Rate** | Overall customer attrition level |
+| **$16.06M Total Charges** | Total customer charge value |
+| **$2.86M Revenue at Risk** | Charges associated with churned customers |
+| **17.83% Revenue at Risk** | Share of total charges exposed to churn |
 
-**Figma** was used during the design and wireframing process.
-
-Custom **HTML/CSS-based visual components** were also incorporated to enhance the dashboard's visual presentation and create a more distinctive user experience.
-
----
-
-# 🧠 Business Insights
-
-The project demonstrates how a telecom organization can move from simple descriptive reporting toward more business-oriented analysis.
-
-Instead of asking only:
-
-> **"How many customers churned?"**
-
-the dashboard encourages questions such as:
-
-> **"Which customers are most at risk?"**
-
-> **"Which segments are contributing most to revenue risk?"**
-
-> **"Which contract or service patterns are associated with higher churn?"**
-
-> **"Where should retention efforts be prioritized?"**
-
-This approach makes the dashboard more useful for **decision-making and retention strategy**.
+The Overview page provides the executive layer, while Customers, Services, and Payment provide the supporting analytical detail.
 
 ---
 
-# 🚀 Skills Demonstrated
+# ⚙️ End-to-End BI Workflow
 
-This project demonstrates practical experience in:
+### 1. Data Preparation
+Structured Excel tables were prepared for analytical use.
 
-* 📊 Business Intelligence
-* 📈 Data Analysis
-* 🧮 DAX
-* 🔄 Power Query
-* 🗂️ Data Modeling
-* 📉 Customer Churn Analysis
-* 💰 Revenue Risk Analysis
-* 👥 Customer Segmentation
-* 📱 Telecom Analytics
-* 🎨 Dashboard UI/UX
-* 🖥️ Power BI Visualization
-* 🎨 Figma
-* 🌐 HTML/CSS
+### 2. Power Query
+Used for data cleaning, transformation, data-type management, and column preparation.
+
+### 3. Data Modeling
+The model connects customer, contract, payment, service, and churn information.
+
+### 4. DAX
+Measures cover customer KPIs, churn, retention, revenue, Revenue at Risk, segmentation, contract, service, and payment analysis.
+
+### 5. Visualization
+The final report presents the analysis through an executive-oriented Power BI experience.
 
 ---
 
-# 🎯 Project Objective
+# 🧠 Analytical Approach
 
-The main objective of this project was not simply to build a Power BI dashboard.
+**Customer Base → Churn Behavior → Revenue Exposure → Service Context → Payment Context → Retention Risk**
 
-It was to demonstrate how a Data Analyst can take a business problem, transform raw data into a structured analytical model, develop meaningful KPIs, and communicate insights through an interactive dashboard.
+This structure connects descriptive reporting with business-oriented customer-risk analysis.
 
-The ultimate goal is to support **data-driven customer retention and revenue protection decisions**.
+---
+
+# 🗂️ Data Model
+
+The model is organized around structured dimension and fact tables:
+
+- **dim_customer** — customer-level attributes
+- **dim_contract** — contract structure
+- **dim_payment** — payment-method information
+- **dim_services** — service attributes
+- **fact_churn** — churn and analytical fact data
+
+This structure supports reusable DAX measures and interactive filtering.
+
+---
+
+# 🎨 Dashboard Design & UX
+
+The dashboard was designed as an **executive-style analytical experience** rather than a collection of disconnected charts.
+
+### Design Principles
+
+- Clear KPI hierarchy
+- Consistent visual language
+- Business-focused navigation
+- Customer-risk storytelling
+- Revenue-impact visibility
+- Interactive filtering
+
+### Design Tools
+
+- **Power BI**
+- **Figma**
+- **HTML**
+- **CSS**
+
+---
+
+# 🧩 Analytical Challenges
+
+### Churn vs. Revenue Risk
+
+Customer churn and financial exposure are not identical measures. The project therefore separates:
+
+**Customer Churn → Revenue at Risk**
+
+### Multi-Dimensional Analysis
+
+Churn is investigated across:
+
+- Customer characteristics
+- Contract
+- Services
+- Payment
+- Customer lifecycle
+
+### Business Storytelling
+
+The dashboard follows:
+
+**What is happening? → Where is it happening? → Which customers are involved? → What is the financial exposure?**
+
+---
+
+# 🛠️ Technology Stack
+
+- **Microsoft Power BI**
+- **DAX**
+- **Power Query**
+- **Microsoft Excel**
+- **Figma**
+- **HTML**
+- **CSS**
+
+---
+
+# 📁 Repository Structure
+
+```text
+Etisalat-Dashboard/
+│
+├── Dataset/
+│   ├── dim_contract.xlsx
+│   ├── dim_customer.xlsx
+│   ├── dim_payment.xlsx
+│   ├── dim_services.xlsx
+│   └── fact_churn.xlsx
+│
+├── Screenshots/
+│   ├── Landing Page.png
+│   ├── Overview Page.png
+│   ├── Customers.png
+│   ├── Services Page.png
+│   ├── Payment Page.png
+│   └── Model.png
+│
+├── Etisalat.pbix
+├── LICENSE
+└── README.md
+```
+
+---
+
+# 🎯 Project Outcome
+
+**Customer Data → Data Preparation → Data Model → DAX Measures → KPI Analysis → Interactive Power BI Dashboard**
+
+The result is a telecom analytics solution that connects **customer behavior with financial exposure**, providing a structured foundation for churn and retention analysis.
 
 ---
 
@@ -286,21 +295,8 @@ The ultimate goal is to support **data-driven customer retention and revenue pro
 
 **Kerelos Nakhla**
 
-Data Analyst | Power BI | DAX | SQL | Excel | Python
+Data Analyst | BI Developer
 
-📌 Interested in opportunities related to:
+**Core Skills:** Power BI · DAX · Power Query · Excel · Data Modeling · Data Analysis · Business Intelligence
 
-* Data Analysis
-* Business Intelligence
-* Power BI
-* Business Analytics
-
----
-
-# ⭐ Feedback
-
-If you find this project useful or have suggestions for improving the analysis, feel free to explore the repository and share your feedback.
-
-**Thank you for visiting!** 🚀
-
-#PowerBI #DataAnalytics #CustomerChurn #DAX #BusinessIntelligence #DataVisualization #PowerQuery #DataAnalysis #CustomerRetention #BusinessAnalytics #DataDriven #Analytics #Telecom #Telecommunications #Etisalat
+#PowerBI #DataAnalytics #CustomerChurn #TelecomAnalytics #DAX #PowerQuery #BusinessIntelligence #DataVisualization #CustomerRetention #RevenueRisk #DataAnalysis #Etisalat
