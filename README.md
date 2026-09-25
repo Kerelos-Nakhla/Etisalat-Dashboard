@@ -28,6 +28,13 @@ The **Etisalat Customer Churn & Revenue Risk Analysis** is an enterprise telecom
 
 ---
 
+
+## Business Questions & Key Analytical Takeaways
+- **Customer loss scale:** 1,869 of 7,043 customers churned, meaning more than **1 in 4 customers** in the dataset left.
+- **Revenue exposure exceeds customer share:** Churned customers represent **26.54% of the customer base**, while their monthly charges represent **30.50% of monthly billings**. The churned segment therefore carries a larger share of current monthly revenue than its share of customers.
+- **Cumulative financial impact:** The analyzed churn loss is approximately **17.83% of cumulative lifetime revenue** ($2.86M of $16.06M).
+- **Recurring exposure:** Current monthly revenue at risk is **$139,130.85**; as a simple annualized run-rate, that is approximately **$1.67M**, before future churn, upgrades, downgrades, or retention effects.
+
 ## Dashboard Visual Tour & Storytelling
 
 ### 1. Landing
