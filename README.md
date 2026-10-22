@@ -260,30 +260,30 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * High-level mission statement, executive summary metrics, and direct routing.
 
 <p align="center">
-  <img src="./Landing%20Page.png" width="92%" alt="Landing Page Preview" />
+  <img src="./Dashboard%20Previews/Landing%20Page.png" width="92%" alt="Landing Page Preview" />
 </p>
 
 ---
 
-### 2. High-Level Churn & Revenue Overview (`Overview Page.png`)
+### 2. High-Level Churn & Revenue Overview (`1- Overview Page.png`, `2- Overview Page.png`)
 * Executive KPI cards: Total Customers (`7,043`), Retained (`5,174`), Churned (`1,869`), Revenue at Risk (`$2.86M`), and Churn Rate (`26.54%`).
 * Contract breakdown bar charts comparing Month-to-Month (`42.71%`), One Year (`11.27%`), and Two Year (`2.83%`).
 * Multi-dimensional tenure cohorts and internet service contribution matrix.
 
 <p align="center">
-  <img src="./1-%20Overview%20Page.png" width="92%" alt="Overview Page Preview" />
-  <img src="./2-%20Overview%20Page.png" width="92%" alt="Overview Page Preview 2" />
+  <img src="./Dashboard%20Previews/1-%20Overview%20Page.png" width="92%" alt="Overview Page Preview" />
+  <img src="./Dashboard%20Previews/2-%20Overview%20Page.png" width="92%" alt="Overview Page Preview 2" />
 </p>
 
 ---
 
-### 3. Subscriber Profile & Demographics (`Customers.png`)
+### 3. Subscriber Profile & Demographics (`Customers Page.png`)
 * Deep demographic segmentation: Senior Citizen risk index (`41.68%` churn), Gender balance, Partner and Dependent influence.
 * Tenure journey tracking highlighting early-tenure flight risk (`0-12 months`).
 * High-risk customer persona matrix combining contract type with demographic variables.
 
 <p align="center">
-  <img src="./Customers%20Page.png" width="92%" alt="Customers Page Preview" />
+  <img src="./Dashboard%20Previews/Customers%20Page.png" width="92%" alt="Customers Page Preview" />
 </p>
 
 ---
@@ -294,7 +294,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Service count graduation curve (from 1 service down to 9 full-bundle services).
 
 <p align="center">
-  <img src="./Services%20Page.png" width="92%" alt="Services Page Preview" />
+  <img src="./Dashboard%20Previews/Services%20Page.png" width="92%" alt="Services Page Preview" />
 </p>
 
 ---
@@ -305,7 +305,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Revenue recovery simulation model based on automated payment migrations.
 
 <p align="center">
-  <img src="./Payment%20Page.png" width="92%" alt="Payment Page Preview" />
+  <img src="./Dashboard%20Previews/Payment%20Page.png" width="92%" alt="Payment Page Preview" />
 </p>
 
 ---
@@ -314,7 +314,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Verified star schema architecture connecting normalized dimensional tables to central subscriber fact table.
 
 <p align="center">
-  <img src="./Model.png" width="92%" alt="Model Architecture Preview" />
+  <img src="./Dashboard%20Previews/Model.png" width="92%" alt="Model Architecture Preview" />
 </p>
 
 ---
