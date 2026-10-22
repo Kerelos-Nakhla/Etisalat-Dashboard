@@ -260,7 +260,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * High-level mission statement, executive summary metrics, and direct routing.
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Landing%20Page.png" width="92%" alt="Landing Page Preview" />
+  <img src="./Landing%20Page.png" width="92%" alt="Landing Page Preview" />
 </p>
 
 ---
@@ -271,7 +271,8 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Multi-dimensional tenure cohorts and internet service contribution matrix.
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Overview%20Page.png" width="92%" alt="Overview Page Preview" />
+  <img src="./1-%20Overview%20Page.png" width="92%" alt="Overview Page Preview" />
+  <img src="./2-%20Overview%20Page.png" width="92%" alt="Overview Page Preview 2" />
 </p>
 
 ---
@@ -282,7 +283,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * High-risk customer persona matrix combining contract type with demographic variables.
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Customers.png" width="92%" alt="Customers Page Preview" />
+  <img src="./Customers%20Page.png" width="92%" alt="Customers Page Preview" />
 </p>
 
 ---
@@ -293,7 +294,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Service count graduation curve (from 1 service down to 9 full-bundle services).
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Services%20Page.png" width="92%" alt="Services Page Preview" />
+  <img src="./Services%20Page.png" width="92%" alt="Services Page Preview" />
 </p>
 
 ---
@@ -304,7 +305,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Revenue recovery simulation model based on automated payment migrations.
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Payment%20Page.png" width="92%" alt="Payment Page Preview" />
+  <img src="./Payment%20Page.png" width="92%" alt="Payment Page Preview" />
 </p>
 
 ---
@@ -313,7 +314,7 @@ The report is structured into **5 interactive pages** with bespoke HTML visuals,
 * Verified star schema architecture connecting normalized dimensional tables to central subscriber fact table.
 
 <p align="center">
-  <img src="./Dashboard%20Previews/Model.png" width="92%" alt="Model Architecture Preview" />
+  <img src="./Model.png" width="92%" alt="Model Architecture Preview" />
 </p>
 
 ---
